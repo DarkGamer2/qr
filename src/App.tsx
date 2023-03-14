@@ -5,7 +5,7 @@ const App = () => {
     <section>
       <div className="container">
         <div className="img-container">
-          <img src={QRImage} alt="QR Code" />
+          <img src={QRImage} className="qr-image" alt="QR Code" />
           <div className="text-container">
             <h3 className="title-text">
               Improve your front-end skills by building projects
